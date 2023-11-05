@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sometype+Mono&display=swap");
 
-@font-face {
-  font-family: "calculator";
-  src: url("/build/font/digital-7/digital-7.ttf");
-}
 body {
   height: 100vh;
   display: flex;
@@ -62,7 +58,6 @@ h1 {
   outline: none;
   cursor: default;
   letter-spacing: 5px;
-  font-family: "calculator";
   font-size: 30px;
   padding: 10px;
   border: 0;
