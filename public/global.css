@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "calculator";
-  src: url("./build/font/digital-7/digital-7.ttf");
+  src: url("/build/font/digital-7/digital-7.ttf");
 }
 body {
   height: 100vh;
