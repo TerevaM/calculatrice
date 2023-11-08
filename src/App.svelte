@@ -22,7 +22,7 @@
 		inputValue = scndValue;
 	}
   }
- /* reset value */  
+ /* reset value */
   function reset() {
 	  console.log("reset values");
 	  mainValue = scndValue = inputValue = operation = "";
@@ -33,7 +33,7 @@
 		console.log("scndValue : ", scndValue);
 		console.log("operation : ", operation);
 	}
-	
+
 	function majValues() {
 		if(mainValue !== "" && scndValue !== "") {
 			result();
@@ -69,7 +69,7 @@
 			case '/':
 				mainValue = String(Number(mainValue) / Number(scndValue));
 				break;
-		
+
 			default:
 				break;
 		}
@@ -79,7 +79,6 @@
 		operation = "";
 	}
 </script>
-<h1>Calculatrice</h1>
  <div class="calculator">
         <input type="text" id="display" readonly bind:value={inputValue}><input type="text" readonly bind:value={operation}>
 		<div class="columns">
